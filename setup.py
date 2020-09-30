@@ -39,11 +39,11 @@ setup(
     long_description=readme,
     long_description_content_type='text/markdown',
     keywords='airflow_prometheus_exporter',
-    name='airflow_prometheus_exporter',
+    name='hiya_airflow_prometheus_exporter',
     packages=find_packages(include=['airflow_prometheus_exporter']),
     include_package_data=True,
     url='https://github.com/robinhood/airflow_prometheus_exporter',
-    version='1.0.7',
+    version='1.0.8',
     entry_points={
         'airflow.plugins': [
             'AirflowPrometheus = airflow_prometheus_exporter.prometheus_exporter:AirflowPrometheusPlugin'
